@@ -29,7 +29,7 @@
 
 ### 💜 Heroku/Railway
 
-[![Deploy+on+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/dihanofficial/sophiamusic-v6)
+[![Deploy+on+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/EPUSTHAKALAYABOTs/Group-VC-Player)
 
 
 Get pyrogram (p)  `SESSION` from here:
