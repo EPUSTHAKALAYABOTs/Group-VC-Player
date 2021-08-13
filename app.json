@@ -2,7 +2,7 @@
   "name": "SophiaMusic",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/dihanofficial/sophiamusic-v6",
+  "repository": "https://github.com/EPUSTHAKALAYABOTs/Group-VC-Player",
   "stack": "container",
   "buildpacks": [
    {
