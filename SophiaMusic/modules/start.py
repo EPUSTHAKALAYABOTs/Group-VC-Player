@@ -9,12 +9,12 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
     & ~ filters.edited
 )
 async def start_(client: Client, message: Message):
-    await message.reply_sticker("CAACAgUAAx0CQELqEwACJT9hFkRsyBfjMt4V-azZJt0IeojVKgACxQIAAiS6mVbvGguidLMMxSAE")
+    await message.reply_sticker(" CAACAgIAAxkBAAIDGWEWlF5fBgFlGRWtrpoGJ-NfgCeBAAKXDQACg5B5SorKwT47DT-5IAQ")
     await message.reply_text(
         f"""<b> Hi there,👋 {message.from_user.first_name}!
 \n I can play music in voice chats of Telegeam Groups.
 I have a lot of Super feature that will amaze you!
-\nTo add in your group contact us at @dihan_official .
+\nTo add in your group contact us at @kasu_bro .
 \nHit /help list of available commands.
  </b>""",
       
@@ -23,17 +23,17 @@ I have a lot of Super feature that will amaze you!
             [
                 [
                     InlineKeyboardButton(
-                        "🛠 Source Code 🛠", url="https://github.com/dihanofficial/sophiamusic-v6")
+                        "⚜️ Add Me To Your Group ⚜️", url="http://t.me/EPUGroupVCPlayer_Bot?startgroup=true")
                   ],[
                     InlineKeyboardButton(
-                        "💬 Updates Channel", url="https://t.me/dihanofficial"
+                        "📣 Updates Channel 📣", url="https://t.me/epusthakalaya_bots"
                     ),
                     InlineKeyboardButton(
-                        "💻 Support Group", url="https://t.me/dihan_official"
+                        "👥 Support Group 👥", url="https://t.me/epusthakalayabotsupport"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "➕ Add Me To Your Group ➕", url="https://t.me/SophiaMusicBot?startgroup=true"
+                        "🌟 Review Us 🌟", url="https://t.me/SophiaMusicBot?startgroup=true"
                     )]
             ]
         ),
@@ -42,12 +42,12 @@ I have a lot of Super feature that will amaze you!
 
 @Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
-      await message.reply_text("""**Sophia Music Player Online ✅**""",
+      await message.reply_text("""**𝐆𝐑𝐎𝐔𝐏 𝐕𝐎𝐈𝐂𝐄 𝐂𝐇𝐀𝐓 𝐁𝐎𝐓 Online ✅**""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "💬 Updates Channel", url="https://t.me/dihanofficial")
+                        "📣 Updates Channel 📣", url="https://t.me/epusthakalaya_bots")
                 ]
             ]
         )
@@ -85,10 +85,10 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "💬 Updates Channel", url="https://t.me/dihanofficial"
+                        "📣 Updates Channel 📣", url="https://t.me/epusthakalaya_bots"
                     ),
                     InlineKeyboardButton(
-                        "💻 Support Group", url="https://t.me/dihan_official"
+                        "👥 Support Group 👥", url="https://t.me/epusthakalayabotsupport"
                     )
                 ]
             ]
